@@ -16,8 +16,9 @@ module.exports = function (opts) {
   var exercises = opts.exercises || {}
 
   menu.reset()
-  menu.write(util.format('<strong>%s</strong>\n', opts.title))
+  menu.write(util.format('<strong>%s</strong>\n', opts.title.toUpperCase()))
   menu.element.style.margin = '2em'
+  document.title = opts.title
 
   var lcat = null
     , cats = []
