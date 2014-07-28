@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "browser-menu": "0.0.2",
-    "browser-workshopper-progress": "0.0.0",
+    "browser-workshopper-progress": "https://github.com/lakenen/browser-workshopper-progress/tarball/wip",
     "sidenote": "^1.0.0"
   },
   "devDependencies": {},
